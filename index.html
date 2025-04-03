@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dat Vo</title>
+    <script type="module" crossorigin src="/assets/index-BxoeX7gW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BhpociOJ.css">
+  </head>
+  <body>
+    <canvas id="background"></canvas>
+
+    <main>
+      <header id="me">
+        <p>Thank you for visiting, I'm</p>
+        <p id="name">Dat Vo</p>
+      </header>
+      <div id="empty"></div>
+
+      <div class="about">
+        <a id="github" href="https://github.com/datvosfsu"><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="50" height="50" ></a>
+        <p>About Me</p>
+        <hr class="rounded">
+        <p id="about">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy learning new technologies and tackling unfamiliar problems. I have a background in computer science
+        where I have hands on experience with a variety of languages including C, Java, and Javascript. Of course, I am still
+        eager to expand my knowledge both vertically deeper into each language and horizontally into newer languages.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have juggled multiple different projects in the past, each with technology varying from the MERN stack all the way to low
+        level embedded systems using C. My goal is to expand my knowledge by working with both old and new tech alike.</p> 
+      </div>
+
+      <div class="projects">
+        <p id="header">Projects</p>
+        <hr class="rounded">
+
+        <p class="title">Social Media Blog API &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A social media API backend without a frontend. The app has the ability to manage user accounts and messages that they submit.
+          Users are able to see all messages posted to the site as well as messages posted
+          by a particular user. In either case, the backend is able to deliver data needed to display this information while also
+          processing actions like logins, registrations, message creations, message updates, and message deletions.</p>
+          <p class="sub-title">Responsibilities</p>
+          <ul>
+            <li>Implemented MVC layers for the API backend</li>
+            <li>Provided controllers for all commonly used endpoints in a blogging app</li>
+            <li>Query resource from a database and convert results into processable Java classes</li>
+            <li>Ensured endpoints passed all test cases</li>
+          </ul>
+          <p class="sub-title">Technologies</p>
+          <p class="textblock">Java, Javalin, JDBC</p>
+        </div>
+        <hr class="rounded-faded">
+
+        <p class="title">Spring Social Media Blog API &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A similar project to the previous. Here, the app have the same functionality, including the ability to manage user
+            accounts and messages that they submit to the application. However, this application is created using the Spring Framework,
+            including Spring Boot, and Spring Web. Similar to the previous iteration of this project, the backend needs to be able to deliver the
+            data needed to display this information as well as process actions like logins, registrations, message creations, message updates, and message deletions.</p>
+          <p class="sub-title">Responsibilities</p>
+        <ul>
+          <li>Implemented MVC layers for the application's backend using Spring to simplify code</li>
+          <li>Reduce boilerplate code with Spring annotations, such as autowiring dependency injections</li>
+          <li>Used JPA repositories to streamline the DAO process</li>
+        </ul>
+        <p class="sub-title">Technologies</p>
+        <p class="textblock">Spring Boot, Spring Data, Spring Framework</p>
+        </div>
+        <hr class="rounded-faded">
+
+        <p class="title">Drive On &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The project goal was to build an obstacle detecting car using a
+            Raspberry Pi mini computer wired to motors and sensors that act as
+            the limbs and eyes of the robot. The robot used two line sensors to
+            traverse through a continuous solid black line composed of
+            swerves, sharp turns, and straight roads. Echo sensors on the sides
+            and front allow for obstacle detection, maneuvering past the
+            obstacle, and merging back on path. The motors of the robot's
+            wheels along with readings from the sensors are controlled by
+            individual device drivers. In order for the robot to make moment to
+            moment micro adjustments, every sensor required a separate thread
+            constantly giving updates on the readings from the sensors. The
+            motor speeds were controlled by adjusting duty cycles and
+            reversing motor direction when needed. All communications to
+            peripheral devices were through I2C. This project was written in C
+            along with C libraries for interacting with drivers and GPIO pins.</p>
+          <p class="sub-title">Responsibilities</p>
+        <ul>
+          <li>In charge of writing majority of code responsible for robot logic, thread
+            management, and sensor/motor driver functions</li>
+          <li>Testing and debugging all source code, along with researching occassional
+            operating system errors</li>
+          <li>Running and testing the robot on sample race tracks, iterating and brainstorming
+            changes to gradually improve robot logic</li>
+          <li>Provided documentation for a l functions and large code blocks</li>
+        </ul>
+        <p class="sub-title">Technologies</p>
+        <p class="textblock">C, pigpio, BCM2835 libraries</p>
+        </div>
+        <hr class="rounded-faded">
+
+        <p class="title">Hearts &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project is an implementation of the card game Hearts that
+            supports synchronous online multiplayer matches with up to four
+            players per match as per game rules. After the user is registered
+            and authenticated, they are moved to the main lobby where they
+            can browse through a list of all active games or create their own
+            room. Each entry in the game list has a title, a timer to keep
+            track of how long the game has lasted, and the amount of players
+            currently in game. A real time chat box in the main lobby lets
+            players talk with others who are also browsing for a match. In
+            addition, each game room has their own individual chat box.</br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A distinguishing feature is that
+            users are not limited to joining a single match at a time. A
+            single user is able to participate in many different game rooms at
+            once. Therefore, the lobby has a list of available games, and a list
+            of currently joined games for easier management of multiple
+            matches. The game itself follows the standard rules for Hearts, and
+            cards are automatically dealt when the requisite four players join a
+            match. The passing phase requires all players to take an action, but
+            afterwards the game is fully turn based. Sockets allow for game
+            GUI elements to be updated in real time for all players in the match
+            so everybody has the correct game state at all times.</p>
+          <p class="sub-title">Responsibilities</p>
+        <ul>
+          <li>Extensive testing and debugging of database functions, endpoints, game logic,
+            and multiplayer functionality</li>
+          <li>Major refactoring of the codebase halfway through the project, along with code
+            cleanup at project's completion</li>
+          <li>Designed and implemented main lobby and all lobby GUI elements, including
+            chat and active games list</li>
+          <li>Implemented a majority of REST endpoints for menu actions and game actions</li>
+          <li>Implemented many of the queries in the DAO layer</li>
+          <li>Enable real time functionality of lobby game list, lobby chat, and in game actions
+            through the use of sockets</li>
+        </ul>
+        <p class="sub-title">Technologies</p>
+        <p class="textblock">HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js,
+          PostgreSQL, Ejs, Passport.js, JSON Web Tokens, Express Sessions</p>
+        </div>
+        <hr class="rounded-faded">
+
+        <p class="title">File System &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a 
+            simple implementation of a Unix file system written only
+            with C and standard C libraries. Given the implementation of a low
+            level file system, the goal is to design and implement a functional
+            file system capable of managing a 500,000 byte volume. In
+            addition, the file system needs interfaces for a shell program to use
+            in order to run common file management commands (ls, cp, mv,
+            etc). When initialized, the current volume control block in the
+            volume is read, and if the signature on the block is not recognized,
+            the volume is reformatted. Free space in the volume is tracked by a
+            free space bitmap located next to the VCB on disk. Allocations are
+            tracked by extent tables in each directory entry. The program must
+            write and read files according to logical block addresses, and files
+            are written to the volume contiguously when possible. If
+            fragmentation occurs, files are written non-contiguously if there is
+            not enough contiguous free space available. File control block
+            structs are used for tracking and storing data in open file buffers.
+            Directory entries' metadata stored by the system includes name,
+            size, entry type(directory or file), and created, accessed, modified
+            dates.</p>
+          <p class="sub-title">Responsibilities</p>
+        <ul>
+          <li>Planning out the complete structure of the file system, implementation plan, and
+            individual team member responsibilities</li>
+          <li>Tutor struggling teammates through complex memory management concepts with
+            line by line code analysis</li>
+          <li>Implemented the vast majority of low level file system read and write functions, file
+            system's shell interface, free space management system, initialization and
+            formatting a volume</li>
+          <li>Testing and debugging every component that makes up the file system along with
+            integration tests when connecting components together</li>
+          <li>Documenting all complex code block and every major function in the project</li>
+        </ul>
+        <p class="sub-title">Technologies</p>
+        <p class="textblock">C and C standard library</p>
+        </div>
+        <hr class="rounded-faded">
+
+        <p class="title">Umame &nbsp;
+          <a href=""><img src="/assets/github-BsLkggKK.png" alt="Github logo" width="28" height="28"></a>
+        </p>
+        <div class="project">
+          <p class="textblock">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          This project is a food recipe sharing blog where users can register
+          accounts, post and browse for recipe ideas, and comment on
+          recipe postings. When a user creates a new post, they are allowed
+          to customize their recipe with images, amount of ingredients,
+          difficulty level, and cooking instructions. Once the recipe is shared,
+          other users may view, vote, leave comments, or bookmark the
+          recipe into a collection. The home page provides all recipe sorted
+          by most recently added. The app includes a mobile layout and
+          guest login for when users simply want to browse, all for ease of
+          use. The search feature includes searching by user, recipe name,
+          tags, or even ingredients needed for a recipe. There is a cooking
+          mode GUI where the app switches from a blog to a recipe book to
+          make following step by step instructions easier. The ingredient mixer
+          lets users add ingredients they currently have on hand, and a
+          search will return recipes the user can make with just what they
+          have.</p>
+          <p class="sub-title">Responsibilities</p>
+          <ul>
+            <li>Setup and ensure remote Amazon EC2 server is up and running, especially near milestone
+              deadlines</li>
+            <li>Maintain codebase in and upload version updates to EC2 instance
+              through Ubuntu command line interface while minimizing storage overhead</li>
+            <li>Launch project for testing and milestone demos using Caddy running on remote
+              server</li>
+            <li>Set up, organize, and clean MongoDB clusters for testing and project demos</li>
+            <li>In charge of team members' authentication credentials for database and
+              remote server access</li>
+            <li>Ensure that backend team implements and tests planned features a week
+              before deadlines, leaving abundant room for integration testing with frontend</li>
+            <li>Constant communication with frontend lead makes sure both sides are up to date</li>
+          </ul>
+          <p class="sub-title">Technologies</p>
+          <p class="textblock">HTML, CSS, MongoDB, Caddy, AWS EC2, Express.js, React, Node.j</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
